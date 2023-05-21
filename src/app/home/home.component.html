@@ -1,0 +1,47 @@
+<!-- ///////////////////////////    Slider    End          -->
+<div id="Product" class="section">
+	<div class="container">
+		<h2 class="section__title menu">
+			{{'Home.Name' | translate }}
+		</h2>
+		<div class="post__content">
+			<!-- wp:paragraph {"align":"center","className":"post__description"} -->
+			<p style="text-align:center" class="post__description"> {{'Home.Description' | translate }}</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:columns {"columns":3} -->
+			<div class="wp-block-columns has-3-columns" style="margin-top: 15px; width: 100%;" >
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" routerLink="/PostPage">
+                        <!--routerLink="/details/{{ item.id }}"-->
+                      <img mat-card-image src="../../assets/Images/Product/Personal.jpg">
+                      <mat-card-title class="custom-title">{{'Home.Card1.Title' | translate }}</mat-card-title>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" routerLink="/PostPage">
+                        <!--routerLink="/details/{{ item.id }}"-->
+                      <img mat-card-image src="../../assets/Images/Product/Business_Finance.jpg">
+                      <mat-card-title class="custom-title">{{'Home.Card2.Title' | translate }}</mat-card-title>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" routerLink="/PostPage">
+                        <!--routerLink="/details/{{ item.id }}"-->
+                      <img mat-card-image src="../../assets/Images/Product/MoterCycle.jfif">
+                      <mat-card-title class="custom-title">{{'Home.Card3.Title' | translate }}</mat-card-title>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" routerLink="/PostPage">
+                        <!--routerLink="/details/{{ item.id }}"-->
+                      <img mat-card-image src="../../assets/Images/Product/Invoice1.jpg">
+                      <mat-card-title class="custom-title">{{'Home.Card4.Title' | translate }}</mat-card-title>
+                    </mat-card>
+				</div>
+			</div>
+			<!-- /wp:columns -->
+
+		</div>
+	</div>
+</div>

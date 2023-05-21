@@ -1,0 +1,36 @@
+<div class="sidebar open">
+  <div class="profile_info">
+      <img src="../../../assets/Images/img.jpg" class="profile_image" alt="">
+      <h4>{{'Sidebar.User.Name' | translate }}</h4>
+    </div>
+  <ul class="nav-list">
+    <li>
+      <a >
+        <i class='bx bx-grid-alt'></i>
+        <span class="links_name">{{'Sidebar.Dashboard' | translate }}</span>
+      </a>
+       <span class="tooltip">{{'Sidebar.Dashboard' | translate }}</span>
+    </li>
+    <li>
+     <a routerLink="/Home">
+       <i class="fa fa-home" aria-hidden="true"></i>
+       <span class="links_name">{{'Sidebar.Home' | translate }}</span>
+     </a>
+     <span class="tooltip">{{'Sidebar.Home' | translate }}</span>
+   </li>
+   <li>
+     <a routerLink="/PostPage">
+       <i class='bx bx-chat' ></i>
+       <span class="links_name">{{'Sidebar.Post' | translate }}</span>
+     </a>
+     <span class="tooltip">{{'Sidebar.Post' | translate }}</span>
+   </li>
+   <li>
+     <a routerLink="/ContentRender" >
+       <i class='bx bx-pie-chart-alt-2' ></i>
+       <span class="links_name">{{'Sidebar.ContentRender' | translate }}</span>
+     </a>
+     <span class="tooltip">{{'Sidebar.ContentRender' | translate }}</span>
+   </li>
+  </ul>
+</div>

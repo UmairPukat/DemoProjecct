@@ -1,0 +1,39 @@
+<header>
+  <div class="left_area">
+    <h3>{{'Navbar.h3' | translate }} <span>{{'Navbar.h3.span' | translate }}</span></h3>
+    <div class="right_area">
+      <button [matMenuTriggerFor]="Lang">
+        <i class="fa fa-language Language-icon" aria-hidden="true"></i>
+      </button>
+      <div class="hamburger-menu nav_btn" >
+        <div (click)="toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<mat-menu #Lang="matMenu" class="customize">
+  <button  mat-menu-item class="manu-btn" (click)="useLanguage('en')"> {{'Navbar.Language.English' | translate }}</button>
+  <button  mat-menu-item class="manu-btn" (click)="useLanguage('sw')">{{'Navbar.Language.Swedish' | translate }}</button>
+</mat-menu>
+
+ <!--mobile navigation bar start-->
+ <div class="mobile_nav">
+  <div class="mobile_nav_items">
+    <a ><i class="fas fa-desktop"></i><span>{{'Sidebar.Dashboard' | translate }}</span></a>
+    <a routerLink="/Home"><i class="fas fa-cogs"></i><span>{{'Sidebar.Home' | translate }}</span></a>
+    <a routerLink="/PostPage"><i class="fas fa-table"></i><span>{{'Sidebar.Post' | translate }}</span></a>
+    <a routerLink="/ContentRender"><i class="fas fa-th"></i><span>{{'Sidebar.ContentRender' | translate }}</span></a>
+  </div>
+</div>
+<!--mobile navigation bar end-->
+
+
+
+
+

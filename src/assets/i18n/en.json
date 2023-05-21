@@ -1,0 +1,45 @@
+{
+    "Navbar": {
+		"h3": "Customer",
+        "h3.span": "Business",
+		"Language.English": "English",
+		"Language.Swedish": "Swedish"	
+	},
+
+	"Sidebar": {
+		"User.Name": "Umair",
+		"Dashboard": "Dashboard",
+		"Home": "Home",
+		"Post": "Post",
+		"ContentRender": "Content Render"
+	},
+
+	"Home": {
+		"Name": "Home Page",
+		"Description": "Home Page Description",
+		"Card1.Title": "Card 1 Title",
+		"Card2.Title": "Card 2 Title",
+		"Card3.Title": "Card 3 Title",
+		"Card4.Title": "Card 4 Title"
+	},
+    "PostPage": {
+		"Name": "Post Page",
+		"Description": "Post Page Description",
+		"Card1.Title": "Card 1 Title",
+        "Card1.P": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. ",
+		"Card2.Title": "Card 2 Title",
+        "Card2.P": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. ",
+		"Card3.Title": "Card 3 Title",
+        "Card3.P": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. ",
+		"Card4.Title": "Card 4 Title",
+        "Card4.P": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan."
+	},
+
+	"ContentRender": {
+		"Input1.Label": "Content",
+		"Input1.Placeholder": "Enter Content there",
+		"Input2.Label": "Converted Content",
+		"Input2.Placeholder": "Your Converted Content show there",
+		"Button": "Filter Data"
+	}
+}

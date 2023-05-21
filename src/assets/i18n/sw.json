@@ -1,0 +1,45 @@
+{
+    "Navbar": {
+		"h3": "Kund",
+        "h3.span": "affär",
+		"Language.English": "Engelska",
+		"Language.Swedish": "Swedish"	
+	},
+
+	"Sidebar": {
+		"User.Name": "Umair",
+		"Dashboard": "instrumentbräda",
+		"Home": "Hem",
+		"Post": "inlägg",
+		"ContentRender": "innehåll Render"
+	},
+
+	"Home": {
+		"Name": "Hem Sida",
+		"Description": "Hem Sida förklaring",
+		"Card1.Title": "Kort 1 Titel",
+		"Card2.Title": "Kort 2 Titel",
+		"Card3.Title": "Kort 3 Titel",
+		"Card4.Title": "Kort 4 Titel"
+	},
+    "PostPage": {
+		"Name": "Inlägg Sida ",
+		"Description": "Inlägg Sida förklaring",
+		"Card1.Title": "Kort 1 Titel",
+        "Card1.P": " Shiba Inu är den minsta av de sex ursprungliga och distinkta spetshundraserna från Japan. ",
+		"Card2.Title": "Kort 2 Titel",
+        "Card2.P": "Shiba Inu är den minsta av de sex ursprungliga och distinkta spetshundraserna från Japan. ",
+		"Card3.Title": "Kort 3 Titel",
+        "Card3.P": "Shiba Inu är den minsta av de sex ursprungliga och distinkta spetshundraserna från Japan. ",
+		"Card4.Title": "Kort 4 Titel",
+        "Card4.P": "Shiba Inu är den minsta av de sex ursprungliga och distinkta spetshundraserna från Japan."
+	},
+
+	"ContentRender": {
+		"Input1.Label": "Innehåll",
+		"Input1.Placeholder": "Ange innehåll där",
+		"Input2.Label": "Konverterat innehåll",
+		"Input2.Placeholder": "Ditt konverterade innehåll visas där",
+		"Button": "Filtrera data"
+	}
+}

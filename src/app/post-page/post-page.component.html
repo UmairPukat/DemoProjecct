@@ -1,0 +1,117 @@
+<!-- ///////////////////////////    Slider    End          -->
+<div id="Product" class="section">
+	<div class="container">
+		<h2 class="section__title menu">
+			{{'PostPage.Name' | translate }}
+		</h2>
+		<div class="post__content">
+			<!-- wp:paragraph {"align":"center","className":"post__description"} -->
+			<p style="text-align:center" class="post__description"> {{'PostPage.Description' | translate }}</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:columns {"columns":3} -->
+			<div class="wp-block-columns has-3-columns" style="margin-top: 15px; width: 100%; margin-right: 30px;" >
+				<div class="wp-block-column" >
+                    <mat-card  class="custom-card" id="card1">
+						<img #Card1imageRef mat-card-image src="../../assets/Images/Product/Personal.jpg" >
+                      <mat-card-title #Card1titleRef class="custom-title">{{'PostPage.Card1.Title' | translate }}</mat-card-title>
+					  <mat-card-content>
+						<p #Card1descriptionRef>
+							{{'PostPage.Card1.P' | translate }}
+						</p>
+					  </mat-card-content>
+					  <mat-card-actions>
+						<div class="button-container">
+							<button mat-icon-button class="print-button" (click)="print('#card1')">
+							  <i class="fa fa-print" aria-hidden="true"></i>
+							</button>
+							<button mat-icon-button (click)="share('card1')">
+							  <i class="fa fa-share" aria-hidden="true"></i>
+							</button>
+						  </div>
+					  </mat-card-actions>
+					  <div >
+						
+					  </div>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" id="card2">
+						<img #Card2imageRef mat-card-image src="../../assets/Images/Product/Business_Finance.jpg" >
+                      <mat-card-title #Card2titleRef class="custom-title">{{'PostPage.Card2.Title' | translate }}</mat-card-title>
+					  <mat-card-content>
+						<p #Card2descriptionRef>
+							{{'PostPage.Card2.P' | translate }}
+						</p>
+					  </mat-card-content>
+					  <mat-card-actions>
+						<div class="button-container">
+							<button mat-icon-button class="print-button" (click)="print('#card2')">
+							  <i class="fa fa-print" aria-hidden="true"></i>
+							</button>
+							<button mat-icon-button (click)="share('card2')">
+							  <i class="fa fa-share" aria-hidden="true"></i>
+							</button>
+						  </div>
+					  </mat-card-actions>
+					  <div >
+						
+					  </div>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" id="card3">
+						<img #Card3imageRef mat-card-image src="../../assets/Images/Product/MoterCycle.jfif" >
+                      <mat-card-title #Card3titleRef class="custom-title">{{'PostPage.Card3.Title' | translate }}</mat-card-title>
+					  <mat-card-content>
+						<p #Card3descriptionRef>
+							{{'PostPage.Card3.P' | translate }}
+						</p>
+					  </mat-card-content>
+					  <mat-card-actions>
+						<div class="button-container">
+							<button mat-icon-button class="print-button" (click)="print('#card3')">
+							  <i class="fa fa-print" aria-hidden="true"></i>
+							</button>
+							<button mat-icon-button (click)="share('card3')">
+							  <i class="fa fa-share" aria-hidden="true"></i>
+							</button>
+						  </div>
+					  </mat-card-actions>
+					  <div >
+						
+					  </div>
+                    </mat-card>
+				</div>
+				<div class="wp-block-column">
+                    <mat-card  class="custom-card" id="card4">
+						<img #Card4imageRef mat-card-image src="../../assets/Images/Product/Invoice1.jpg" >
+                      <mat-card-title #Card4titleRef class="custom-title">{{'PostPage.Card4.Title' | translate }}</mat-card-title>
+					  <mat-card-content>
+						<p #Card4descriptionRef>
+							{{'PostPage.Card4.P' | translate }}
+						</p>
+					  </mat-card-content>
+					  <mat-card-actions>
+						<div class="button-container">
+							<button mat-icon-button class="print-button" (click)="print('#card4')">
+							  <i class="fa fa-print" aria-hidden="true"></i>
+							</button>
+							<button mat-icon-button (click)="share('card4')">
+							  <i class="fa fa-share" aria-hidden="true"></i>
+							</button>
+						  </div>
+					  </mat-card-actions>
+					  <div >
+						
+					  </div>
+                    </mat-card>
+				</div>
+			</div>
+			<!-- /wp:columns -->
+
+		</div>
+	</div>
+</div>
+
+
